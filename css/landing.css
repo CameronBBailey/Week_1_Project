@@ -1,0 +1,179 @@
+
+/* Navigation Bar */
+.navbar{
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.buttons{
+    margin-left: 60px;
+}
+
+.navbar-brand{
+    margin-left: 60px;
+}
+
+/* Header */
+
+.cheader{
+    display: flex;
+    padding-top: 5vw;
+    height: 35vw;
+}
+.boxofdoom{
+display: flex;
+height: 30vw;
+}
+.focusbox{
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    width: 30%;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    padding-top: 1.5vw;
+    
+}
+.titlebox{
+    display: flex;
+    font-size: 4.0vw;
+    font-weight: bold;
+    margin-bottom: .5vw;
+}
+.subtitlebox{
+    display: flex;
+    font-size: 1.8vw;
+    font-weight: bold;
+    margin-bottom: .5vw;
+}
+.billingtextbox{
+    display: flex;
+    color: gray;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+}
+.buttonbox{
+    display: flex;
+    width: 100%;
+    margin-bottom: .8vw;
+}
+.doubletap{
+    display: flex;
+    font-size: 1vw;
+    color: grey;    
+    margin-bottom: 1.3vw;
+}   
+
+.smalltext{
+    display: flex;
+    height: 2vw;
+    
+    
+}
+
+.signupfreebutton{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-style: solid;
+    padding-top: .8vw;
+    padding-bottom: .8vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border-radius: 8%;
+    border-width: 1px;
+    width: 5vw;
+    height: 1vw;
+    font-size: .85vw;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 1vw;
+
+}
+.chatwithusbutton{
+    text-decoration: none;
+    display: flex;
+    color: blue;
+    background-color: white;
+    border-style: solid;
+    border-color:blue;
+    padding-top: .8vw;
+    padding-bottom: .8vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border-radius: 8%;
+    border-width: 1px;
+    width: 5vw;
+    height: 1vw;
+    font-size: .85vw;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.dividerline{
+    background-color: lightgray;
+    height: 1px;
+    width: 50%;
+    
+}
+
+#first{
+    display: flex;
+    height: 1.2vw;
+    margin: auto;
+}
+
+ /* Features  */
+
+.textbox{
+    margin: 50px;
+    width: auto;
+    text-align: center;
+}
+
+.featrow{
+    margin: auto;
+    width: 80%;
+}
+
+.btn-square-md {
+    width: 100px ;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    float: none;
+    margin: 0 auto;
+    padding: 0px;
+    font-size:12px;
+}
+
+
+
+.credit{
+    
+    margin: 80px auto;
+    width: 80%;
+}
+
+.creditpic{
+    
+    height: 60%;
+}
+
+.creditguy{
+    padding-top: 80px;
+    padding-left: 80px;
+    border-radius: 30px 0px 0px 30px;
+    border: solid 1px darkgray;
+}
+
+.bluebox{
+    background-color: blue;
+    border-radius: 0px 30px 30px 0px;
+}
