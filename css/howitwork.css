@@ -209,12 +209,70 @@ font-size: 1.5vw;
     width: 100%;
     height: 35vw;
     background-color: blue;
+    flex-direction: column;
 }
 
 .footertitle{
     display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    color: white;
+    margin-top: 3vw;
+    
+}
+.footersubtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7vw;
+    color: white;
+    margin-top: 1.5vw;
+
+}
+.footerbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
-.footerbuttons{
+
+
+.footerbutton1{
     display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    background-color: green;
+    border-radius: 4%;
+    text-decoration: none;
+    font-weight: bold;
+    width: 10vw;
+    font-size: 1.5vw;
+    width: 12vw;
+    height: 2.5vw;
+    align-items: center;
+    
+}
+.footerbutton2{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    background-color: white;
+    border-radius: 4%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 10vw;
+    height: 2.5vw;
+    align-items: center;
+    
+}
+.smalltextf{
+    display: flex;
+    height: 2vw;
+    justify-content: space-evenly;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    
+    
 }
