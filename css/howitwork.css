@@ -1,1 +1,109 @@
 
+.header{
+    display: flex;
+    padding-top: 5vw;
+}
+.boxofdoom{
+display: flex;
+height: 30vw;
+}
+.focusbox{
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    width: 30%;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    padding-top: 1.5vw;
+    
+}
+.titlebox{
+    display: flex;
+    font-size: 4.0vw;
+    font-weight: bold;
+    margin-bottom: .5vw;
+}
+.subtitlebox{
+    display: flex;
+    font-size: 1.8vw;
+    font-weight: bold;
+    margin-bottom: .5vw;
+}
+.billingtextbox{
+    display: flex;
+    color: gray;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+}
+.buttonbox{
+    display: flex;
+    width: 100%;
+    margin-bottom: .8vw;
+}
+.doubletap{
+    display: flex;
+    font-size: 1vw;
+    color: grey;    
+    margin-bottom: 1.3vw;
+}   
+
+.smalltext{
+    display: flex;
+    height: 2vw;
+    
+    
+}
+
+.signupfreebutton{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-style: solid;
+    padding-top: .8vw;
+    padding-bottom: .8vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border-radius: 8%;
+    border-width: 1px;
+    width: 5vw;
+    height: 1vw;
+    font-size: .8vw;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 1vw;
+
+}
+.chatwithusbutton{
+    text-decoration: none;
+    display: flex;
+    color: blue;
+    background-color: white;
+    border-style: solid;
+    border-color:blue;
+    padding-top: .8vw;
+    padding-bottom: .8vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    border-radius: 8%;
+    border-width: 1px;
+    width: 5vw;
+    height: 1vw;
+    font-size: .8vw;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.dividerline{
+    background-color: grey;
+    height: 1px;
+    display: flex;
+}
+
+#first{
+    display: flex;
+    height: 1.2vw;
+    margin: auto;
+}
