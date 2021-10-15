@@ -10,7 +10,7 @@ height: 30vw;
 .focusbox{
     display: flex;
     flex-direction: column;
-    height: 40vw;
+    height: 30vw;
     width: 30%;
     margin-left: 15vw;
     margin-right: 10vw;
@@ -97,13 +97,50 @@ height: 30vw;
     font-weight: bold;
 }
 .dividerline{
-    background-color: grey;
+    background-color: lightgray;
     height: 1px;
-    display: flex;
+    width: 50%;
+    
 }
 
 #first{
     display: flex;
     height: 1.2vw;
     margin: auto;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bluebox{
+    display: flex;
+}
+
+.imgbox{
+    display: flex
+}
+
+.blueboxtext{
+    display: flex;
+}
+
+.bodytext{
+    display: flex;
+    font-size: 1.4vw;
+    color: black;
+    margin-top: 3vw;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
 }
