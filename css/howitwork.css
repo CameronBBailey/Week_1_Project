@@ -265,7 +265,7 @@ font-size: 1.5vw;
 .footerbutton1{
     display: flex;
     text-decoration: none;
-   
+    text-align: center;
     justify-content: center;
     color: white;
     background-color: greenyellow;
@@ -279,6 +279,7 @@ font-size: 1.5vw;
     height: 2.5vw;
     align-items: center;
     margin-right: 2vw;
+    margin-left: 2vw;
     
 }
 .footerbutton2{
@@ -294,6 +295,7 @@ font-size: 1.5vw;
     height: 2.5vw;
     align-items: center;
     margin-left: 4vw;
+    margin-right: 1vw;
     
     
     
