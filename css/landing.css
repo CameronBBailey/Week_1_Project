@@ -1,0 +1,17 @@
+
+/* Navigation Bar */
+.navbar{
+    margin-bottom: 30px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.buttons{
+    margin-left: 60px;
+}
+
+.navbar-brand{
+    margin-left: 60px;
+}
