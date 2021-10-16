@@ -1,0 +1,154 @@
+body {
+    background-color:  white;
+    margin: 0;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:    
+    "accountyet signin";
+}
+.accountyet {
+    color: white;
+    font-size: 170%;
+    text-align: center;
+    background-color: blue;
+    clip-path: ellipse(94% 107% at 5% -8%);
+    height: 950px;
+}
+.accounttxt {
+    margin-top: 10%;
+    margin-right: 15%;
+}
+.signupbutt {
+    display: inline-block;
+    border: white solid;
+    border-radius: 2em;
+    font-size: 100%;
+    background-color: blue;
+    width: 30%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+}
+.signupbutt:hover {
+    background-color: rgb(35, 35, 247);
+    border-color: white;
+}
+.skylinemoon {
+    height: 450px;
+    width: 450px;
+    margin-top: 10%;
+    margin-left: -15%;
+}
+
+
+.signin {
+    text-align: left;
+    color: black;
+}
+.signin1 {
+    font-size: 400%;
+    margin-top: 13%;
+    text-align: left;
+    margin-left: 29%;
+}
+.form1 {
+    margin: 22%;
+    border-radius: 2em;
+    padding: 10%;
+    width: 300%;
+    height: 27%;
+    border: 2px solid lightgray;
+}
+.form2 {
+    margin: 22%;
+    border-radius: 2em;
+    padding: 10%;
+    width: 300%;
+    height: 25%;
+    border: 2px solid lightgray;
+}
+.form3 {
+    margin: 22%;
+    border-radius: 2em;
+    padding: 10%;
+    width: 300%;
+    height: 25%;
+    border: 2px solid lightgray;
+}
+.tripforms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.signinbutt {
+    border: white solid;
+    border-radius: 2em;
+    font-size: 200%;
+    background-color: blue;
+    width: 30%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+    margin-left: 30%;
+}
+.signinbutt:hover {
+    background-color: rgb(35, 35, 247);
+    border-color: white;
+}
+.morebutt {
+    text-align: center;
+    margin-right: 10%;
+}
+.google {
+    font-size: 175%;
+    margin-left: 5%;
+}
+.smimages {
+    text-align: center;
+    margin-right: 7%
+}
+.facebook {
+    margin-right: 6%;
+    border-color: black;  
+}
+.twitter {
+    margin-left: 4%;
+}
+.linkedin {
+    font-size: 175%;
+    margin-left: 4%;
+}
+.google:link {
+    color: black;
+}
+.google:active {
+    color: black;
+}
+.google:visited {
+    color: black;
+}
+.google:hover {
+    color: black;
+}
+.linkedin:link {
+    color: black;
+}
+.linkedin:active {
+    color: black;
+}
+.linkedin:visited {
+    color: black;
+}
+.linkedin:hover {
+    color: black;
+}
