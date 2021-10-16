@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "signup picture";
+}
+.signup {
+    text-align: left;
+    color: black;
+}
+.signup1 {
+    font-size: 400%;
+    margin-top: 30%;
+    text-align: left;
+    margin-left: 47%;
+}
+.form1 {
+    margin: 22%;
+    border-radius: 2em;
+    padding: 10%;
+    width: 300%;
+    height: 27%;
+    border: 2px solid lightgray;
+}
+.form2 {
+    margin: 22%;
+    border-radius: 2em;
+    padding: 10%;
+    width: 300%;
+    height: 25%;
+    border: 2px solid lightgray;
+}
+.form3 {
+    margin: 22%;
+    border-radius: 2em;
+    padding: 10%;
+    width: 300%;
+    height: 25%;
+    border: 2px solid lightgray;
+}
+.tripforms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 14%;
+}
+.signupbutt {
+    border: white solid;
+    border-radius: 2em;
+    font-size: 200%;
+    background-color: blue;
+    width: 45%;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    border-width: 2px;
+    margin-left: 48%;
+}
+.signupbutt:hover {
+    background-color: rgb(35, 35, 247);
+    border-color: white;
+}
+.morebutt {
+    text-align: center;
+    margin-left: 42%;
+}
+.google {
+    font-size: 175%;
+    margin-left: 5%;
+}
+.smimages {
+    text-align: center;
+    margin-left: 44%
+}
+.facebook {
+    margin-right: 6%;
+    border-color: black;  
+}
+.twitter {
+    margin-left: 4%;
+}
+.linkedin {
+    font-size: 175%;
+    margin-left: 4%;
+}
+.google:link {
+    color: black;
+}
+.google:active {
+    color: black;
+}
+.google:visited {
+    color: black;
+}
+.google:hover {
+    color: black;
+}
+.linkedin:link {
+    color: black;
+}
+.linkedin:active {
+    color: black;
+}
+.linkedin:visited {
+    color: black;
+}
+.linkedin:hover {
+    color: black;
+}
+.picture {
+    align-self: center;
+    justify-self: center;
+    width: 60%;
+    margin-top: 10%;
+    margin-right: 17%;
+
+}
+.girl {
+    width: 130%;
+    height: 130%;
+}
