@@ -1,5 +1,11 @@
+h2{
+    text-align: center;
+}
+/* Navigation Bar */
 .navbar{
     margin-bottom: 30px;
+    height: 100px;
+    margin-left: 44px;
 }
 
 .nav-item {
@@ -13,6 +19,7 @@
 .navbar-brand{
     margin-left: 60px;
 }
+
 
 .cheader{
     display: flex;
